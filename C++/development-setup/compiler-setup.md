@@ -8,7 +8,7 @@ Across all systems, I will be using the clang compiler in my development environ
 - clang uses the LLVM backend which allows for more flexible and reliable code generation.
 
 
-- ### WindowsOS
+- ### [WindowsOS](#windowsos-1)
 - ### MacOS
 - ### Linux 
 
@@ -55,5 +55,9 @@ C:\msys64\mingw64\bin
 13) Type " exe" and under "Code-runner: Executor Map," click "Edit in settings.json,"
 
 14) Look for c and cpp and change wherever you see "gcc" with "clang" for C and "clang++" for C++. Save the file.
+- The executor map allows us to see which commands are being used to run our projects. That is why we change the commands for C/C++.
 
-15) 
+15) Type " terminal" and then enable "Code-runner: Run In Terminal." 
+- This will send code output to the terminal instead of the "Output" window.
+
+16) Restart VS Code and create a simple hello world program to verify that settings are working.
